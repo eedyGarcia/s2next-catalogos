@@ -33,3 +33,7 @@ mostrar la descripción.
 - Desarrollarlo con php puro (No Frameworks)
 - Desarrollarlo 100% OOP
 - Coneccion a base de datos mediante PDO.
+
+___
+
+El proyecto en ejecución, se puede consultar en: [https://test.hadronti-s1.com/](https://test.hadronti-s1.com/)
