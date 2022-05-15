@@ -47,7 +47,6 @@ class seleccionar{
 
     public function por_menu_padre($id_menu_padre)
     {
-
         $query = "SELECT * FROM menu WHERE id_menu_padre='$id_menu_padre' 
         ORDER BY id_menu ASC;";
         
@@ -56,19 +55,16 @@ class seleccionar{
         $data = $this->agregar_padre_unico($id_menu_padre, $data);
 
         return $data;
-
     }
 
     
     public function catalogos(){
-        
         $query = "SELECT * FROM menu WHERE id_menu_padre=0 ORDER BY id_menu ASC;";
         $data = $this->sql->query_complex($query);
 
         $data = $this->agregar_padre($data);
 
         return $data;
-
     }
 
 

@@ -25,7 +25,7 @@
 
                         </select>
                     </div>
-
+ 
                     <div class="col-10 my-2">
                         <label for="nombre">Nombre</label>
                         <input type="text" name="nombre" id="nombre" class="form-control form-control-sm" maxlength="50">

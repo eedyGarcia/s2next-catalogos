@@ -8,7 +8,7 @@
         <? require('components/styles.php');?>
 
         <title>S2 Next</title>
-    </head>
+    </head> 
     <body>
         <? require('components/navbar.php');?>
         

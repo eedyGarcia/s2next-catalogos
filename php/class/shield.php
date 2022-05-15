@@ -11,7 +11,9 @@ class shield{
 		$string = str_replace($illegal2," ",$string);
 
 		$string = trim ($string);
-		for($i=0;$i<=5;$i++){
+		
+		for($i=0;$i<=5;$i++)
+		{
 			$string = str_replace("  "," ",$string);
 		}
 		

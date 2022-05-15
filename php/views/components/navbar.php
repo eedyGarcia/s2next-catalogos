@@ -33,7 +33,7 @@
                         aria-expanded="false"
                     >
                         <? echo $padre; ?>
-                    </a>
+                    </a> 
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 
                 <?      foreach($grupo as $k2 => $item){?>

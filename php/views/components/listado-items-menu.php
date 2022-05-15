@@ -2,7 +2,7 @@
     <div class="col-md-12">
         <h4>Listado de los items del menú</h4>
     </div>
-</div>
+</div> 
 <div class="row bg-info py-3">
     <div class="col-md-6 text-white">
         Menú

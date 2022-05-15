@@ -11,7 +11,6 @@ class insertar{
     
     public function registro($id_menu_padre,$nombre,$descripcion)
     {
-
         $tabla_existe = $this->crear_tabla->tabla_menu_existe();
 
         if($tabla_existe){

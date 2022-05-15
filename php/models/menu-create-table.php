@@ -15,7 +15,6 @@ class crear_tabla{
 
     public function crear_tabla_menu($poblar=false)
     {
-
         $tabla_exists = $this->tabla_menu_existe();
 
         if(!$tabla_exists)

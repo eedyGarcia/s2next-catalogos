@@ -4,7 +4,7 @@ class conPDO{
 		$this->bdhost = 'localhost';
 		$this->bdname = 's2next';
 		$this->bduser = 'root';
-		$this->bdpass = '123';
+		$this->bdpass = '1234';
 	}
 	private function On(){
 		$log = new PDO('mysql:host='.$this->bdhost.';dbname='.$this->bdname,$this->bduser,$this->bdpass);

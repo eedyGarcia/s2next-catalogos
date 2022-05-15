@@ -26,6 +26,7 @@ class actualizar{
             
             header("Location: ../");
             return true;
+            
         }
 
         setcookie("mensaje", "warning.El item no pudo ser actualizado con el nombre <b>{$nombre}</b> por que ya existe otro item con ese nombre",

@@ -6,4 +6,5 @@ header('HTTP/1.1 200 OK');
 date_default_timezone_set ('America/Mexico_City');
 
 require("php/controllers/controller.php"); 
+
 ?>

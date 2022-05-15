@@ -6,7 +6,7 @@ if(isset($_COOKIE["mensaje"]) && $method=='GET')
     ?>
         <script>
             const header = document.getElementById('liveToastHeader');
-            header.classList.add('bg-<? echo $mensaje[0]; ?>');
+            header.classList.add('bg-<? echo $mensaje[0]; ?>'); 
 
             const title = document.getElementById('liveToastTitle');
             title.innerHTML = '<? echo $mensaje[0]; ?>';

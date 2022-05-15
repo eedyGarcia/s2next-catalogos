@@ -3,7 +3,7 @@
         <form class="card mt-5" action="./" method="PUT">
             <input type="hidden" name="id_menu" value="<? echo $menu['id_menu']; ?>">
             <input type="hidden" name="_METHOD" value="PUT">
-            <div class="card-header">
+            <div class="card-header"> 
                 <div class="card-title">Editar item</div>
             </div>
             <div class="card-body">

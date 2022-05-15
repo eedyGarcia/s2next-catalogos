@@ -8,6 +8,7 @@ $shield = new shield;
 require("{$_SERVER["DOCUMENT_ROOT"]}/php/models/menu-create-table.php");
 $crear_tabla = new crear_tabla;
 
+
 $route = $_GET['url'] ?? '/';
 $route = explode('?',$route)[0];
 

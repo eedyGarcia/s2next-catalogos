@@ -26,7 +26,7 @@
                 </tr>
             </thead>
             <tbody>
-
+ 
             
                 <?
                     $items = $seleccionar->por_menu_padre($id_menu_padre);
