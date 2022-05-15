@@ -2,5 +2,3 @@
 .vscode/*
 */error_log
 error_log
-
-php/class/con_pdo.php
