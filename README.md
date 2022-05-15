@@ -36,4 +36,4 @@ mostrar la descripción.
 
 ___
 
-El proyecto en ejecución, se puede consultar en: [https://test.hadronti-s1.com/](https://test.hadronti-s1.com/)
+El proyecto en ejecución se puede consultar en: [https://test.hadronti-s1.com/](https://test.hadronti-s1.com/)
