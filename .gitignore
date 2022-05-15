@@ -1,8 +1,8 @@
-# Conexión de pruebas
-*/con_pdo.php
+.vscode/*
+*/.DS_Store
+.DS_Store
 
 # Local Files
-.vscode/*
+php/class/*
 */error_log
 error_log
-.DS_Store
