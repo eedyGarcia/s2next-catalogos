@@ -9,7 +9,7 @@
     </div>
     <div class="col-md-6 text-end">
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Nuevo
+            <i class="fas fa-plus"></i> Nuevo
         </button>
     </div>
 </div>
@@ -40,10 +40,10 @@
                             <td><? echo $data['padre']; ?></td>
                             <td><? echo $data['descripcion']; ?></td>
                             <td class="text-end">
-                                <a href="../editar-menu/?id_menu=<? echo $data['id_menu']; ?>" class="btn btn-sm btn-outline-dark">Editar</a>
+                                <a href="../editar-menu/?id_menu=<? echo $data['id_menu']; ?>" class="btn btn-sm btn-outline-dark"><i class="fas fa-pencil-alt"></i> Editar</a>
 
                                 <form class="form-inline" action="../" method="DELETE">
-                                    <button class="btn btn-sm btn-outline-dark">Eliminar</button>
+                                    <button class="btn btn-sm btn-outline-dark"><i class="far fa-trash-alt"></i> Eliminar</button>
                                     <input type="hidden" name="id_menu" value="<? echo $data['id_menu']; ?>">
                                     <input type="hidden" name="_METHOD" value="DELETE">
                                 </form>

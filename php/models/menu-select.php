@@ -58,13 +58,16 @@ class seleccionar{
     }
 
     
-    public function catalogos(){
-        $query = "SELECT * FROM menu WHERE id_menu_padre=0 ORDER BY id_menu ASC;";
+    public function ids_padres(){
+        $query = "SELECT DISTINCT(id_menu_padre) FROM menu WHERE id_menu_padre>0";
         $data = $this->sql->query_complex($query);
 
-        $data = $this->agregar_padre($data);
+        $ids_padres = [];
+        foreach($data as $k => $padre){
+            $ids_padres[]=$padre['id_menu_padre'];
+        }
 
-        return $data;
+        return $ids_padres;
     }
 
 

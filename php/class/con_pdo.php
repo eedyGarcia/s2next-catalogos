@@ -2,9 +2,9 @@
 class conPDO{
 	public function __construct() {
 		$this->bdhost = 'localhost';
-		$this->bdname = 's2next';
-		$this->bduser = 'root';
-		$this->bdpass = '123';
+		$this->bdname = 'hadronti_test';
+		$this->bduser = 'hadronti_test';
+		$this->bdpass = 'NkBgkoYYB1quQKH';
 	}
 	private function On(){
 		$log = new PDO('mysql:host='.$this->bdhost.';dbname='.$this->bdname,$this->bduser,$this->bdpass);
